@@ -1,0 +1,80 @@
+.main-address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    width: 85%;
+    min-height: 100vh;
+
+}
+.address-left-side{
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+}
+.address-details-panels{
+    border-bottom: 2px solid #D1D1D8;
+    ;
+}
+.address-details-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+.address-details-panel-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.radio-title{
+    margin-left: 15px;
+}
+.address-details-panel-header-btn{
+    font-size: 16px;
+    font-weight: 500;
+    border-width: 0;
+}
+
+.remove-btn{
+  color : #E14B4B;
+  margin-left: 50px;
+  margin-right: 10px;
+ 
+
+}
+.address-details-panel-footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+    text-align: left;
+}
+
+.add-new-address{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.add-new-address-btn{
+    display: flex;
+    padding: 10px;
+    margin: 15px 3px;
+    background-color: white;
+    color: #3AA39F;
+    font-weight: 600;
+    border-width: 0;
+}
+.add-new-address-btn:hover{
+    scale: 1.1;
+}
+/*******Right Side *********/
+.address-right-side{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    align-items: center;
+
+}

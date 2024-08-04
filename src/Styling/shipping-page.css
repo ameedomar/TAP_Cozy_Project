@@ -1,0 +1,23 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+    text-align: center;
+    margin-left: 10%;
+    width: 85%;
+    min-height: 100vh;    
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    align-items: flex-start;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    align-items: center;
+}

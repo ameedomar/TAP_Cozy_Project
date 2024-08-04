@@ -1,0 +1,36 @@
+
+.payment-methods-container{
+    width: 100%;
+}
+.payment-methods-radio{
+    width: 95%;
+}
+table, th, td {
+    border: 1px solid #A2A3B1;
+    border-collapse: collapse;
+  }
+.payment-radio-option{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.payment-radio{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.payment-radio-icon{
+    margin: 2px 15px;
+}
+.payment-radio-info{
+    margin-left: 50px;
+    color:  #A2A3B1;
+    font-weight: 400;
+}
+.payment-radio-btn{
+    background-color: white;
+    color: #E14B4B;
+    font-weight: 600;
+    border: 0;
+}

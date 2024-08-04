@@ -1,0 +1,27 @@
+.main-shipping{
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+}
+
+
+.radio-span{
+    margin-left: 10px;
+}
+
+
+.select-shippiment-method{
+    padding: 0;
+    border: 0;
+}
+.select-shippiment-method::selection{
+    padding: 0;
+    border: 0;
+}
+.payment-radio-span-2{
+    font-weight: 400;
+}
+.select-shippiment-method{
+
+    color: gray;
+}
